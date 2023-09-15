@@ -96,6 +96,8 @@ No entanto, não há nada para se preocupar. Entender que você está falando co
 3. Finalizar a 1:1 com algo "O que podemos fazer para evoluirmos no que falamos hoje? Vamos chegar a uma solução em conjunto?"
 
 **Perguntas poderosas:** 
+* 1:1s sobre momento pessoal
+  * Por quanto tempo você acredita que sustentaria o nível de qualidade e o pace dos entregáveis considerando o seu ritmo nos últimos 2 meses?[[1]([url](https://benmccormick.org/2020/08/30/190000.html))] 
 * 1:1s de futuro profissional
   * Como você vê o seu futuro profissional? O que você acredita que a empresa já conseguiu te ajudar neste sentido? Como a empresa consegue ajudar nas conquistas que você almeja? Como posso ajudar?
   * Você sente que está progredindo nos seus grandes objetivos aqui?
