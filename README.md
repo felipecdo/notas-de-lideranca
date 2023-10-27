@@ -8,12 +8,16 @@ Agradeço a ideia vinda do [Kamil Sindi](https://github.com/ksindi/managers-play
 - [Anotações de Liderança para pessoas em Tech](#anotações-de-liderança-para-pessoas-em-tech)
 - [Sumário](#sumário)
 - [Time](#time)
-- [O papel e características do líder neste time](#o-papel-e-características-do-líder-neste-time)
+- [Papel](#papel)
 - [Cerimônias e reuniões](#cerimônias-e-reuniões)
   * [One on Ones](#one-on-ones)
     + [Primeiras 1:1s com líderes de líderes](#primeiras-1-1s-com-l-deres-de-l-deres)
+    + [Listening Tours - Entrando em um contexto](#listening-tours---entrando-em-um-contexto)
     + [Stay Interviews](#stay-interviews)
-    + [Técnicas de feedbacks](#técnicas-de-feedbacks)
+    + [Exit Interviews](#exit-interviews)
+    + [Técnicas de feedbacks](#t-cnicas-de-feedbacks)
+      - [SCI](#sci)
+      - [Compreender, Validar e convergir](#compreender--validar-e-convergir)
   * [Alinhamento de Objetivos](#alinhamento-de-objetivos)
     + [Tour of Duty](#tour-of-duty)
   * [Comemorações e Entrega](#comemorações-e-entrega)
@@ -26,6 +30,9 @@ Agradeço a ideia vinda do [Kamil Sindi](https://github.com/ksindi/managers-play
   * [Princípio da automação](#princípio-da-automação)
   * [Princípio da visibilidade](#princípio-da-visibilidade)
   * [Princípio da diversidade](#princípio-da-diversidade)
+- [Outros pontos](#outros-pontos)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 <!-- <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small> -->
 
@@ -130,6 +137,12 @@ Assim como os liderados, líderes também precisam ter clareza sobre o seu traba
 * Como vemos minha contribuição para esse momento do time/área/negócio?
 
 Referências: [[1](https://larahogan.me/blog/first-one-on-one-questions/)]
+
+### Listening Tours - Entrando em um contexto 
+Referências: [[1](https://www.linkedin.com/pulse/listening-tours-just-new-leaders-chris-schillinger-3qkgf/)] [[2](https://www.linkedin.com/pulse/twenty-one-listening-tour-questions-andy-erickson)]
+
+**Objetivo:** Geralmente quando se está iniciando em uma empresa ou mesmo em um produto/projeto, uma possibilidade é uma 1:1 focada na percepção da outra pessoa sobre algum assunto. Elas ajudam na percepção de confiança, alinhamento e diagnóstico da situação ou produto/projeto inserido, gerando mais ideias ou embasamento para uma tomada de decisão. 
+
 
 ### Stay Interviews
 
