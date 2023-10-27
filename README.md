@@ -137,8 +137,17 @@ Referências: [[1](https://larahogan.me/blog/first-one-on-one-questions/)]
 ### Listening Tours - Entrando em um contexto 
 Referências: [[1](https://www.linkedin.com/pulse/listening-tours-just-new-leaders-chris-schillinger-3qkgf/)] [[2](https://www.linkedin.com/pulse/twenty-one-listening-tour-questions-andy-erickson)]
 
-**Objetivo:** Geralmente quando se está iniciando em uma empresa ou mesmo em um produto/projeto, uma possibilidade é uma 1:1 focada na percepção da outra pessoa sobre algum assunto. Elas ajudam na percepção de confiança, alinhamento e diagnóstico da situação ou produto/projeto inserido, gerando mais ideias ou embasamento para uma tomada de decisão. 
+**Objetivo:** Geralmente quando se está iniciando em uma empresa ou mesmo em um produto/projeto, uma possibilidade é uma 1:1 focada na percepção da outra pessoa sobre algum assunto. Elas ajudam na percepção de confiança, alinhamento e diagnóstico da situação ou produto/projeto inserido, gerando mais ideias ou embasamento para uma tomada de decisão. Antes da reunião vale ter a clareza de qual assunto abordar.
 
+1. Como você está sendo afetado por essa iniciativa?
+2. Qual o valor que você vê dessa iniciativa?
+3. O que está sendo mais frustrante ou difícil sobre ela?
+4. Existe alguma forma de corrigir o caminho? Quando que o assunto não era um problema?
+5. Quem faz isso muito bem? Algum time ou empresa?
+6. Como você acredita que os stakeholders estão lidando com ela? Alguma interpretação errada, expectativa desalinhada ou algo que deveria estar visível para alta liderança?
+7. Algum stakeholder que você considera super importante de gerar alinhamento?
+8. Se você tivesse todos os poderes sobre a iniciativa. O que faria com ela?
+9. Alguma vez você trouxe essa dor? Qual foi a reação da liderança ou dos stakeholders envolvidos?
 
 ### Stay Interviews
 
