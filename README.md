@@ -32,8 +32,6 @@ Agradeço a ideia vinda do [Kamil Sindi](https://github.com/ksindi/managers-play
   * [Princípio da diversidade](#princípio-da-diversidade)
 - [Outros pontos](#outros-pontos)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
 <!-- <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small> -->
 
 # Time
