@@ -5,28 +5,26 @@ Esse markdown foi desenhado como um compilado do meu processo de desenvolvimento
 Agradeço a ideia vinda do [Kamil Sindi](https://github.com/ksindi/managers-playbook) e incrementada como todo apoio e Material da [a.karta](https://akarta.com.br/) e outras referências que serão mantidas como link.
 
 # Sumário
-- [Anotações de Liderança para pessoas em Tech](#anotações-de-liderança-para-pessoas-em-tech)
-- [Sumário](#sumário)
 - [Time](#time)
 - [Papel](#papel)
 - [Cerimônias e reuniões](#cerimônias-e-reuniões)
   * [One on Ones](#one-on-ones)
-    + [Primeiras 1:1s com líderes de líderes](#primeiras-1-1s-com-l-deres-de-l-deres)
+    + [Primeiras 1:1s com líderes de líderes](#primeiras-1on1s-com-líderes-de-líderes)
     + [Listening Tours - Entrando em um contexto](#listening-tours---entrando-em-um-contexto)
     + [Stay Interviews](#stay-interviews)
     + [Exit Interviews](#exit-interviews)
-    + [Técnicas de feedbacks](#t-cnicas-de-feedbacks)
+    + [Técnicas de feedbacks](#técnicas-de-feedbacks)
       - [SCI](#sci)
-      - [Compreender, Validar e convergir](#compreender--validar-e-convergir)
+      - [Compreender, Validar e convergir](#compreender-validar-e-convergir)
   * [Alinhamento de Objetivos](#alinhamento-de-objetivos)
     + [Tour of Duty](#tour-of-duty)
   * [Comemorações e Entrega](#comemorações-e-entrega)
 - [Auto-conhecimento](#auto-conhecimento)
   * [RAIN](#rain)
 - [Gerenciamento Lean de Software](#gerenciamento-lean-de-software)
-  * [Complexidade: A raiz da maioria dos problemas em Software](#complexidade--a-raiz-da-maioria-dos-problemas-em-software)
+  * [Complexidade: A raiz da maioria dos problemas em Software](#complexidade-a-raiz-da-maioria-dos-problemas-em-software)
   * [Princípio do baixo acoplamento](#princípio-do-baixo-acoplamento)
-  * [Principio da alta iteração e pequenas entregas](#princípio-da-alta-itera--o-e-pequenas-entregas)
+  * [Principio da alta iteração e pequenas entregas](#princípio-da-alta-iteração-e-pequenas-entregas)
   * [Princípio da automação](#princípio-da-automação)
   * [Princípio da visibilidade](#princípio-da-visibilidade)
   * [Princípio da diversidade](#princípio-da-diversidade)
@@ -125,7 +123,7 @@ No entanto, não há nada para se preocupar. Entender que você está falando co
   * Como você enxerga meu papel aqui? Como posso te ajudar no dia-a-dia?
   * O que está indo bem dentro do time hoje? O que ainda acha que tem espaço de melhoria no time hoje?
 
-### Primeiras 1:1s com líderes de líderes
+### Primeiras 1on1s com líderes de líderes
 
 Assim como os liderados, líderes também precisam ter clareza sobre o seu trabalho e as expectativas sobre eles. Aqui são algumas perguntas poderosas
 
