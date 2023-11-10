@@ -6,7 +6,7 @@ O objetivo é compartilhar os princípios e ferramentas principais em uma lidera
 
 Agradeço a ideia vinda do [Kamil Sindi](https://github.com/ksindi/managers-playbook) e incrementada como todo apoio e Material da [a.karta](https://akarta.com.br/) e outras referências que serão mantidas como link.
 
-Aceito PRs :D
+**Aceito PRs :D**
 
 # Sumário
 
