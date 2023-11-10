@@ -408,35 +408,38 @@ E daí vem a diferença dos projetos de Software para os Projetos clássicos de 
 
 Todos os princípios abaixo terão a premissa da redução da Complexidade Acidental ou de validarmos se estamos indo na essência dos problemas.
 
-- Destaques de alguns autores:
+**Trechos de autores:**
 
-  - [Frederick P. Brooks, Jr - No Silver Bullet: Essence and Accidents of Software Engineering](http://worrydream.com/refs/Brooks-NoSilverBullet.pdf)
+> The familiar software project, at least as seen by the nontechnical manager, has something of this character; it is usually innocent and straightforward, but is capable of becoming a monster of missed schedules, blown budgets, and flawed products. So we hear desperate cries for a silver bullet--something to make software costs drop as rapidly as computer hardware costs do.  
+> [...]  
+> The essence of a software entity is a construct of interlocking concepts: data sets, relationships among data items, algorithms, and invocations of functions. This essence is abstract in that such a conceptual construct is the same under many different representations. It is nonetheless highly precise and richly detailed.    
+> [...]  
+> Digital computers are themselves more complex than most things people build: They have very large numbers of states. This makes conceiving, describing, and testing them hard. Software systems have orders-of-magnitude more states than computers do  
+> [Frederick P. Brooks, Jr - No Silver Bullet: Essence and Accidents of Software Engineering](http://worrydream.com/refs/Brooks-NoSilverBullet.pdf)
 
-    > The familiar software project, at least as seen by the nontechnical manager, has something of this character; it is usually innocent and straightforward, but is capable of becoming a monster of missed schedules, blown budgets, and flawed products. So we hear desperate cries for a silver bullet--something to make software costs drop as rapidly as computer hardware costs do.
+> Simplicity is Hard    
+> [...]  
+> The key problem with testing is that a test (of any kind) that uses one particular set of inputs tells you nothing at all about the behaviour of the system or component when it is given a different set of inputs.  The huge number of different possible inputs usually rules out the possibility of testing them all, hence the unavoidable concern with testing will always be — have you performed the right tests?    
+> [...]  
+>  The key problem is that a test (of any kind) on a system or component that is in one particular state tells you nothing at all about the behaviour of that system or component when it happens to be in another state.[... This problem] is a direct parallel to one of the fundamental problems with testing discussed above — namely that testing for one set of inputs tells you nothing at all about the behaviour with a different set of inputs. In fact the problem caused by state is typically worse — particularly    
+> [...]  
+> when testing large chunks of a system — simply because even though the number of possible inputs may be very large, the number of possible states the system can be in is often even larger.    
+> [...]  
+> Our recommendations for dealing with complexity (as exemplified by both state and control) can be summed up as: (1) Avoid and (2) Separate  
+> [Ben Moseley e Peter Marks - Out of Tar Pit](http://curtclifton.net/papers/MoseleyMarks06a.pdf) 
 
-    > The essence of a software entity is a construct of interlocking concepts: data sets, relationships among data items, algorithms, and invocations of functions. This essence is abstract in that such a conceptual construct is the same under many different representations. It is nonetheless highly precise and richly detailed.
 
-    > Digital computers are themselves more complex than most things people build: They have very large numbers of states. This makes conceiving, describing, and testing them hard. Software systems have orders-of-magnitude more states than computers do
 
-  - [Ben Moseley e Peter Marks - Out of Tar Pit](http://curtclifton.net/papers/MoseleyMarks06a.pdf) > Simplicity is Hard
+> I conclude that there are two ways of constructing a software design: One way is to make it so simple that there are obviously no deficiencies and the other way is to make it so complicated that there are no obvious deficiencies  
+> [Charles Hoare - The Emperor's Old Clothes](cs.fsu.edu/~engelen/courses/COP4610/hoare.pdf)
 
-        > The key problem with testing is that a test (of any kind) that uses one particular set of inputs tells you nothing at all about the behaviour of the system or component when it is given a different set of inputs.  The huge number of different possible inputs usually rules out the possibility of testing them all, hence the unavoidable concern with testing will always be — have you performed the right tests?
 
-        >  The key problem is that a test (of any kind) on a system or component that is in one particular state tells you nothing at all about the behaviour of that system or component when it happens to be in another state.[... This problem] is a direct parallel to one of the fundamental problems with testing discussed above — namely that testing for one set of inputs tells you nothing at all about the behaviour with a different set of inputs. In fact the problem caused by state is typically worse — particularly
 
-    when testing large chunks of a system — simply because even though the number of possible inputs may be very large, the number of possible states the system can be in is often even larger.
+> Those who want really reliable software will discover that they must find means of avoiding the majority of bugs to start with, and as a result the programming process will become cheaper. If you want more effective programmers, you will discover that they should not waste their time debugging, they should not introduce the bugs to start with.    
+> [...]  
+> We all know that the only mental tool by means of which a very finite piece of reasoning can cover a myriad cases is called “abstraction”; as a result the effective exploitation of his powers of abstraction must be regarded as one of the most vital activities of a competent programmer.
+> [Dijkstra - The Humble Programmer](https://www.cs.utexas.edu/users/EWD/transcriptions/EWD03xx/EWD340.html)
 
-        > Our recommendations for dealing with complexity (as exemplified by both state and control) can be summed up as: (1) Avoid and (2) Separate
-
-  - [Charles Hoare - The Emperor's Old Clothes](cs.fsu.edu/~engelen/courses/COP4610/hoare.pdf)
-
-    > I conclude that there are two ways of constructing a software design: One way is to make it so simple that there are obviously no deficiencies and the other way is to make it so complicated that there are no obvious deficiencies
-
-  - [Dijkstra - The Humble Programmer](https://www.cs.utexas.edu/users/EWD/transcriptions/EWD03xx/EWD340.html)
-
-    > Those who want really reliable software will discover that they must find means of avoiding the majority of bugs to start with, and as a result the programming process will become cheaper. If you want more effective programmers, you will discover that they should not waste their time debugging, they should not introduce the bugs to start with.
-
-    > We all know that the only mental tool by means of which a very finite piece of reasoning can cover a myriad cases is called “abstraction”; as a result the effective exploitation of his powers of abstraction must be regarded as one of the most vital activities of a competent programmer.
 
 ## Princípio do baixo acoplamento
 
@@ -452,27 +455,30 @@ Todos os princípios abaixo terão a premissa da redução da Complexidade Acide
 
 - O que algumas empresas tem feito? Um caminho bem interssante que estou vendo no mercado é não existir mais aqueles times de "Operação", "Design", "Arquitetura", etc. No final, o time tem que ser autônomo, não é? Sendo assim, criar um time como todas estes papéis dentro do próprio time pode ser uma abordagem para incrementar a agilidade (["Specialized roles create efficiencies within each segment while potentially creating inefficiencies across the entire life cycle."](https://netflixtechblog.com/full-cycle-developers-at-netflix-a08c31f83249))
 
-- Destaque de Livros e artigos:
 
-  - [_Jez Humble; Nicole Forsgren; Gene Kim - Accelerate_](https://www.amazon.com.br/-/pt/dp/B07B9F83WM/)
+**Trechos de autores:**
 
-    > In teams which scored highly on architectural capabilities, little communication is required between delivery teams to get their work done.
+> In teams which scored highly on architectural capabilities, little communication is required between delivery teams to get their work done.  
+> [...]  
+> The architecture of the system is designed to enable teams to test, deploy, and change their systems without dependencies on other teams.  
+> [...]  
+> high-performing group [...] can do most of our testing without requiring an integrated environment. We can and do deploy or release our application independently of other applications/ services it depends on.  
+> [...]  
+> Use of bounded contexts and APIs as a way to decouple large domains into smaller, more loosely coupled units, and the use of test doubles and virtualization as a way to test services or components in isolation.  
+> [...]  
+> ensure delivery teams are cross-functional, with all the skills necessary to design, develop, test, deploy, and operate the system on the same team.  
+> [_Jez Humble; Nicole Forsgren; Gene Kim - Accelerate_](https://www.amazon.com.br/-/pt/dp/B07B9F83WM/)
 
-    > The architecture of the system is designed to enable teams to test, deploy, and change their systems without dependencies on other teams.
 
-    > high-performing group [...] can do most of our testing without requiring an integrated environment. We can and do deploy or release our application independently of other applications/ services it depends on.
 
-    > Use of bounded contexts and APIs as a way to decouple large domains into smaller, more loosely coupled units, and the use of test doubles and virtualization as a way to test services or components in isolation.
 
-    > ensure delivery teams are cross-functional, with all the skills necessary to design, develop, test, deploy, and operate the system on the same team.
+> Fred Brooks observou que o tempo de um programador não é acumulativo; adicionar desenvolvedores em um projeto atrasado de software faz com que ele se torne mais atrasado. Ele expôs que a complexidade e custos de comunicação de um projeto crescem com o quadrado do número de desenvolvedores, enquanto o trabalho feito cresce somente linearmente. Esta afirmação é desde então conhecida como "A Lei de Brooks"  
+> [_Eric S. Raymond - A Catedral e o Bazar_](https://pt.wikipedia.org/wiki/A_Catedral_e_o_Bazar)
 
-- [_Eric S. Raymond - A Catedral e o Bazar_](https://pt.wikipedia.org/wiki/A_Catedral_e_o_Bazar)
 
-  > Fred Brooks observou que o tempo de um programador não é acumulativo; adicionar desenvolvedores em um projeto atrasado de software faz com que ele se torne mais atrasado. Ele expôs que a complexidade e custos de comunicação de um projeto crescem com o quadrado do número de desenvolvedores, enquanto o trabalho feito cresce somente linearmente. Esta afirmação é desde então conhecida como "A Lei de Brooks"
+> A well-known architecture department anti-pattern is the “ivory tower”: architects sit in the penthouse to define how developers should design and build software, without developing any software themselves. Such a setup has one cardinal flaw: it doesn't provide feedback to the architects as to the effectiveness nor the cost of their decisions. Worse yet: some architects quite enjoy themselves not having to deal with those consequences.  
+> [_Gregor Hohpe - The Architect Elevator — Visiting the upper floors_](https://martinfowler.com/articles/architect-elevator.html)
 
-- [_Gregor Hohpe - The Architect Elevator — Visiting the upper floors_](https://martinfowler.com/articles/architect-elevator.html)
-
-  > A well-known architecture department anti-pattern is the “ivory tower”: architects sit in the penthouse to define how developers should design and build software, without developing any software themselves. Such a setup has one cardinal flaw: it doesn't provide feedback to the architects as to the effectiveness nor the cost of their decisions. Worse yet: some architects quite enjoy themselves not having to deal with those consequences.
 
 ## Princípio da alta iteração e pequenas entregas
 
@@ -496,27 +502,26 @@ Todos os princípios abaixo terão a premissa da redução da Complexidade Acide
 
 - Pessoas técnicas também podem interagir com clientes, alterar especificações ou sugerir novas prioridades: Durante o processo de desenvolvimento de software, limitações técnicas podem surgir e ninguém melhor que o time técnico para encontrar soluções, sendo eles parte muito importante da entrega de valor para o cliente final.
 
-- Destaque de Livros:
+**Trechos de autores:**
 
-  - [_Jez Humble; Nicole Forsgren; Gene Kim - Accelerate_](https://www.amazon.com.br/-/pt/dp/B07B9F83WM/)
+> We found that external approvals were negatively correlated with lead time, deployment frequency, and restore time, and had no correlation with change fail rate.  
+> [...]  
+> [Product] actively and regularly seek customer feedback and incorporate this feedback into the design of their products. [...] Our key hypothesis in asking these questions was that teams implementing continuous delivery practices and taking an experimental approach to product development will build better products, and will also feel more connected to the rest of their organization. This, in turn, creates a virtuous cycle: by creating higher levels of software delivery performance, we increase the rate at which teams can validate their ideas, creating higher levels of job satisfaction and organizational performance.  
+> [...]  
+> Even though working in small chunks adds some overhead, it reaps enormous rewards by allowing us to avoid work that delivers zero or negative value for our organizations.  
+> [...]  
+> Development teams have the authority to create and change specifications as part of the development process without requiring approval.  
+> [_Jez Humble; Nicole Forsgren; Gene Kim - Accelerate_](https://www.amazon.com.br/-/pt/dp/B07B9F83WM/)
 
-    > We found that external approvals were negatively correlated with lead time, deployment frequency, and restore time, and had no correlation with change fail rate.
 
-    > [Product] actively and regularly seek customer feedback and incorporate this feedback into the design of their products. [...] Our key hypothesis in asking these questions was that teams implementing continuous delivery practices and taking an experimental approach to product development will build better products, and will also feel more connected to the rest of their organization. This, in turn, creates a virtuous cycle: by creating higher levels of software delivery performance, we increase the rate at which teams can validate their ideas, creating higher levels of job satisfaction and organizational performance.
-
-    > Even though working in small chunks adds some overhead, it reaps enormous rewards by allowing us to avoid work that delivers zero or negative value for our organizations.
-
-    > Development teams have the authority to create and change specifications as part of the development process without requiring approval.
-
-  - [_Eric S. Raymond - A Catedral e o Bazar_](https://pt.wikipedia.org/wiki/A_Catedral_e_o_Bazar)
-
-    > O estilo de Linus Torvalds de desenvolvimento -- libere cedo e freqüentemente, delegue tudo que você possa, esteja aberto ao ponto da promiscuidade -- veio como uma surpresa. Nenhuma catedral calma e respeitosa aqui -- ao invés, a comunidade Linux pareceu assemelhar-se a um grande e barulhento bazar de diferentes agendas e aproximações
-
-    > Uma importante característica dos grandes [programadpres] é a preguiça construtiva. Eles sabem que você ganha um 'A' não por esforço, mas por resultados, e é quase sempre mais fácil partir de uma boa solução parcial do que do nada.
-
-    > Planeje jogar algo fora; você irá, de qualquer maneira. [...] você freqüentemente não entende realmente o problema até depois da primeira vez que você implementa uma solução. Na segunda vez, talvez você saiba o suficiente para fazer corretamente. Então se você quer fazer algo certo, esteja preparado para começar tudo novamente pelo menos uma vez.
-
-    > Com um pouco de estímulo, seus usuários irão diagnosticar problemas, sugerir correções e ajudar
+> O estilo de Linus Torvalds de desenvolvimento -- libere cedo e freqüentemente, delegue tudo que você possa, esteja aberto ao ponto da promiscuidade -- veio como uma surpresa. Nenhuma catedral calma e respeitosa aqui -- ao invés, a comunidade Linux pareceu assemelhar-se a um grande e barulhento bazar de diferentes agendas e aproximações  
+> [...]    
+> Uma importante característica dos grandes [programadpres] é a preguiça construtiva. Eles sabem que você ganha um 'A' não por esforço, mas por resultados, e é quase sempre mais fácil partir de uma boa solução parcial do que do nada.    
+> [...]  
+> Planeje jogar algo fora; você irá, de qualquer maneira. [...] você freqüentemente não entende realmente o problema até depois da primeira vez que você implementa uma solução. Na segunda vez, talvez você saiba o suficiente para fazer corretamente. Então se você quer fazer algo certo, esteja preparado para começar tudo novamente pelo menos uma vez.    
+> [...]  
+> Com um pouco de estímulo, seus usuários irão diagnosticar problemas, sugerir correções e ajudar  
+> [_Eric S. Raymond - A Catedral e o Bazar_](https://pt.wikipedia.org/wiki/A_Catedral_e_o_Bazar)
 
 ## Princípio da automação
 
@@ -532,21 +537,21 @@ Todos os princípios abaixo terão a premissa da redução da Complexidade Acide
 
 - O objetivo é que qualquer processo ou burocracia repetitiva dentro de uma organização (como deploy, documentação, etc) possa ser visualizado como uma oportunidade de automação. Isso torna o trabalho mais sustentável e produtivo para as próprias pessoas
 
-- Destaque de Livros:
+**Trechos de autores:**
 
-  - [_Jez Humble; Nicole Forsgren; Gene Kim - Accelerate_](https://www.amazon.com.br/-/pt/dp/B07B9F83WM/)
+  
+> Automated unit and acceptance tests should be run against every commit to version control to give developers fast feedback on their changes. [...] Developers should be able to run all automated tests on their workstations [...and] no one should be saying they are “done” with any work until all relevant automated tests have been written and are passing.   
+> [...]  
+> changes should only be applied to production using a fully automated process that forms part of a deployment pipeline. That is, no changes should be able to be made to production unless they have been committed to version control, validated by the standard build and test process, and then deployed through an automated process triggered through a deployment pipeline.   
+> [...]  
+> when teams practice CD, deployment to production is not an enormous, big-bang event— it’s something that can be done during normal business hours as a part of regular daily work. [...Also,] they help to decrease deployment pain and team burnout.   
+> [...]  
+> Investments in technology are also investments in people, and these investments will make our technology process more sustainable  
+> [_Jez Humble; Nicole Forsgren; Gene Kim - Accelerate_](https://www.amazon.com.br/-/pt/dp/B07B9F83WM/)
 
-    > Automated unit and acceptance tests should be run against every commit to version control to give developers fast feedback on their changes. [...] Developers should be able to run all automated tests on their workstations [...and] no one should be saying they are “done” with any work until all relevant automated tests have been written and are passing.
 
-    > changes should only be applied to production using a fully automated process that forms part of a deployment pipeline. That is, no changes should be able to be made to production unless they have been committed to version control, validated by the standard build and test process, and then deployed through an automated process triggered through a deployment pipeline.
-
-    > when teams practice CD, deployment to production is not an enormous, big-bang event— it’s something that can be done during normal business hours as a part of regular daily work. [...Also,] they help to decrease deployment pain and team burnout.
-
-    > Investments in technology are also investments in people, and these investments will make our technology process more sustainable
-
-  - [_Eric S. Raymond - A Catedral e o Bazar_](https://pt.wikipedia.org/wiki/A_Catedral_e_o_Bazar)
-    > Os programadores bons sabem o que escrever. O grandes sabem o que re-escrever (e reusar).
-
+> Os programadores bons sabem o que escrever. O grandes sabem o que re-escrever (e reusar).  
+>  [_Eric S. Raymond - A Catedral e o Bazar_](https://pt.wikipedia.org/wiki/A_Catedral_e_o_Bazar)
 ## Princípio da visibilidade
 
 - Provocação: Seu serviço está de pé? Quantos requests ele está recebendo? Qual throughput do seu time no último mês? Estas são perguntas muito comuns que managers recebem.
@@ -555,17 +560,16 @@ Todos os princípios abaixo terão a premissa da redução da Complexidade Acide
 
 - Este princípio ajuda o próprio time a se regular e verificar os resultados das suas alterações.
 
-- Destaque de Livros:
+**Trechos de autores:**
 
-  - [_Jez Humble; Nicole Forsgren; Gene Kim - Accelerate_](https://www.amazon.com.br/-/pt/dp/B07B9F83WM/)
+> Managers should make performance metrics visible and take pains to align these with organizational goals, and should delegate more authority to their employees.  
+> [_Jez Humble; Nicole Forsgren; Gene Kim - Accelerate_](https://www.amazon.com.br/-/pt/dp/B07B9F83WM/)
 
-    > Managers should make performance metrics visible and take pains to align these with organizational goals, and should delegate more authority to their employees.
 
 ## Princípio da diversidade
 
-> Kintsugi ("emenda de ouro") é uma antiga arte japonesa que consiste em reparar cerâmica quebrada com pó de ouro ou algum material com brilho, tornando-a uma peça única pois suas rachadoras beiram o impossível de se reproduzir. Como resultado, a peça restaurada se torna muito mais valiosa.
->
-> > [Kintsugi (Wikipedia)](https://en.wikipedia.org/wiki/Kintsugi)
+> Kintsugi ("emenda de ouro") é uma antiga arte japonesa que consiste em reparar cerâmica quebrada com pó de ouro ou algum material com brilho, tornando-a uma peça única pois suas rachadoras beiram o impossível de se reproduzir. Como resultado, a peça restaurada se torna muito mais valiosa.  
+> [Kintsugi (Wikipedia)](https://en.wikipedia.org/wiki/Kintsugi)
 
 - Como metáfora (e até filosofia!), cada pessoa traz consigo uma história e diversas "rachaduras de ouro" que as fazem únicas e acrescentam uma visão diferente dentro do time.
 
@@ -582,23 +586,20 @@ Todos os princípios abaixo terão a premissa da redução da Complexidade Acide
 
 - Empresas e times são subconjuntos de uma sociedade. A realidade brasileira é diversa e desigual. O líder portanto deve provocar ativamente um ambiente de trabalho que represente a diversidade da sociedade (diferenças físicas,culturais, tradições, religião, costumes, a política, etc) com o intuito de promover a [equidade](https://duvidas.dicio.com.br/equidade-ou-igualdade/) e justiça social (práticas através de ações afirmativas que combatem a desigualdade).
 
-- Destaque de Livros:
+**Trechos de autores:**
 
-  - [_Jez Humble; Nicole Forsgren; Gene Kim - Accelerate_](https://www.amazon.com.br/-/pt/dp/B07B9F83WM/)
+> Diversity matters. Research shows that teams with more diversity with regard to gender or underrepresented minorities are smarter (Rock and Grant 2016), achieve better team performance (Deloitte 2013), and achieve better business outcomes [...] It is also important to note that diversity is not enough. Teams and organizations must also be inclusive.  
+> [_Jez Humble; Nicole Forsgren; Gene Kim - Accelerate_](https://www.amazon.com.br/-/pt/dp/B07B9F83WM/)
 
-    > Diversity matters. Research shows that teams with more diversity with regard to gender or underrepresented minorities are smarter (Rock and Grant 2016), achieve better team performance (Deloitte 2013), and achieve better business outcomes [...] It is also important to note that diversity is not enough. Teams and organizations must also be inclusive.
-
-  - [_Eric S. Raymond - A Catedral e o Bazar_](https://pt.wikipedia.org/wiki/A_Catedral_e_o_Bazar)
-
-    > "Dados olhos suficientes, todos os erros são triviais." Eu chamo isso de: "Lei de Linus".
+> "Dados olhos suficientes, todos os erros são triviais." Eu chamo isso de: "Lei de Linus".
+> [_Eric S. Raymond - A Catedral e o Bazar_](https://pt.wikipedia.org/wiki/A_Catedral_e_o_Bazar)
 
 # Outros pontos
 
 - Segurança
 
-> We found that the biggest predictor of an organization’s application-development security practices was cultural, not technical: high-trust, low-blame cultures focused on performance were 1.6x more likely to have above average adoption of emerging security practices than low trust, high-blame cultures focused on power or rules. We also found early evidence suggesting that pre-deployment security scanning is effective at finding vulnerable dependencies, resulting in fewer vulnerabilities in production code.
->
-> > 2022 Accelerate
+> We found that the biggest predictor of an organization’s application-development security practices was cultural, not technical: high-trust, low-blame cultures focused on performance were 1.6x more likely to have above average adoption of emerging security practices than low trust, high-blame cultures focused on power or rules. We also found early evidence suggesting that pre-deployment security scanning is effective at finding vulnerable dependencies, resulting in fewer vulnerabilities in production code.  
+> *2022 Accelerate*
 
 # Outras Citações
 
